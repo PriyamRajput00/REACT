@@ -1,10 +1,11 @@
-import JSXRules from "./JSX/JSXRules"
+import Greeting from "./Dynamic_Content_with_JSX/Greeting"
+
 
 
 const App = () => {
   return (
     <div>
-      <JSXRules/>
+     <Greeting/>
     </div>
    
   )
