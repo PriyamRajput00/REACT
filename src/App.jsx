@@ -1,10 +1,11 @@
-import JSXRules from "./JSX/JSXRules"
+import List from "./List/List"
+
 
 
 const App = () => {
   return (
     <div>
-      <JSXRules/>
+      <List/>
     </div>
    
   )
