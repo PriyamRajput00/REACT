@@ -1,9 +1,15 @@
-import Greet from "./Components/Greeting"
-
+import Footer from "./Components/Footer"
+import Header from "./Components/Header"
+import MainContent from "./MainContent"
 
 const App = () => {
   return (
-   <Greet />
+    <div>
+      <Header />
+     <MainContent />
+     <Footer/>
+    </div>
+   
   )
 }
 
